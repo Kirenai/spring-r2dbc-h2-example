@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///customer
+
+  webflux:
+    base-path: /api/customers
+
+  h2:
+    console:
+      enabled: true
+      path: /h2
