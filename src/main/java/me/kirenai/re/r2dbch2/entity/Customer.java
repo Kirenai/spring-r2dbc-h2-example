@@ -15,7 +15,7 @@ import org.springframework.data.relational.core.mapping.Table;
 public class Customer {
 
     @Id
-    private Long customerId;
+    private String customerId;
     private String name;
 
 }

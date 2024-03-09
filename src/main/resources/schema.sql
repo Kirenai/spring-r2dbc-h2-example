@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS customers
 (
-    customer_id INT         NOT NULL AUTO_INCREMENT,
+    customer_id VARCHAR(255) DEFAULT UUID(),
     name        VARCHAR(50) NOT NULL,
     PRIMARY KEY (customer_id)
 );
